@@ -8,15 +8,17 @@ public class Driver {
 		
 		System.out.println("Current count:" + counter.getCount());
 		
-		counter.increaseBy(4);
+		counter.increaseBy(5);
 		
 		System.out.println("Current count:" + counter.getCount());
 		
-		counter.decreaseBy(2);
+		counter.decreaseBy(3);
 		
 		System.out.println("Current count:" + counter.getCount());
 
-		counter.multiplyBy(4);
+		counter.multiplyBy(6);
+
+		System.out.println("Current count:" + counter.getCount());
 	}
 
 }
